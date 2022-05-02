@@ -35,20 +35,20 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Front-end Web Developer", "Graphic Designer", "Web Developer", "Social Media Manager"],
-        typeSpeed: 100,
-        backSpeed: 60,
+        strings: ["Front-end Web Developer", "Content Creator", "Social Media Manager"],
+        typeSpeed: 50,
+        backSpeed: 30,
         loop: true
     });
 
   var typed = new Typed(".typing-2", {
-        strings: ["Front-end Web Developer", "Graphic Designer", "Web Developer", "Social Media Manager"],
-        typeSpeed: 100,
-        backSpeed: 60,
+        strings: ["Contact Me"],
+        typeSpeed: 80,
+        backSpeed: 30,
         loop: true
     });
 
-  // if addedd loop will run// deleted the service w/ images with carousel style in html // 
+  // if addedd loop will run// deleted the service w/ images with carousel style in html :-(
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,

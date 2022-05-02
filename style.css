@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,500&display=swap');
 
 *{
     margin: 0;
@@ -15,10 +15,10 @@ html{
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #fff;
 }
 ::-webkit-scrollbar-thumb {
-    background: #d6d6d6;
+    background: #04AA6D;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -38,7 +38,7 @@ section{
 }
 
 .about, .skills, .contact, footer{
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .about .about-content, .serv-content,
@@ -57,7 +57,7 @@ section .title{
     font-weight: 750;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 
 section .title::before{
@@ -67,7 +67,7 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #003566;
+    background: #04AA6D;
     transform: translateX(-50%);
 }
 
@@ -76,7 +76,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: #592E83; /* below title */
+    color: #111; /* below title */
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -90,12 +90,12 @@ section .title::after{
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #230C33; /* nav bar color */
+    background: #04AA6D; /* nav bar color */
 }
 .navbar .max-width{
     display: flex;
@@ -112,7 +112,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #CAA8F5;
+    color: #fff;
 }
 .navbar .menu li{
     list-style: none;
@@ -127,10 +127,10 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: #FFC300;
+    color: #111;
 }
 .navbar.sticky .menu li a:hover{
-    color: #FFC300;
+    color: #04AA6D;
 }
 
 .menu-btn{
@@ -143,7 +143,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #FFC300;
+    background: #04AA6D;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -178,7 +178,7 @@ section .title::after{
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .home .max-width{
   width: 100%;
@@ -200,19 +200,19 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: #FFC300;
+    color: #04AA6D;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: #FFC300;
-    color: #001D3D;
+    background: #04AA6D;
+    color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid #FFD60A;
+    border: 2px solid #04AA6D;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
@@ -243,46 +243,46 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: #FFC300;
+    color: #04AA6D;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #FFC300;
-    color: #001D3D;
+    background: #04AA6D;
+    color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #FFD60A;
+    border: 2px solid #04AA6D;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: #001D3D;
+    color: #111;
     background: none;
 }
 
  
 
 /* services section styling */
-.services, .skll{
-    color:#fff;
-    background: #111;
+.services, .skills{
+    color:#111;
+    background: #e0fffc;
 }
 .services .title::before{
-    background: #fff;
+    background: #04AA6D;
 }
 .services .title::after,
 .skll .title::after{
-    background: #111;
+    background: #fff;
     content: "I offer";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #001D3D;
+    background: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -290,7 +290,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: #FFC300;
+    background: #04AA6D;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -300,11 +300,11 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: #FFC300;
+    color: #04AA6D;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
-    color: #003566;
+    color: #fff;
 }
 .services .serv-content .card .text{
     font-size: 25px;
@@ -316,7 +316,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "Knowledge";
+    content: "Language";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -342,7 +342,7 @@ section .title::after{
 .skills .skills-content .right .line{
     height: 5px;
     width: 100%;
-    background: lightgrey;
+    background: #fff;
     position: relative;
 }
 .skills .skills-content .right .line::before{
@@ -351,7 +351,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: #FFC300;
+    background: #04AA6D;
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -364,6 +364,63 @@ section .title::after{
 }
 .skills-content .right .php::before{
     width: 70%;
+}
+
+
+/* forms section */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 
 
@@ -392,13 +449,13 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: #FFC300;
+    color: #04AA6D;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #001D3D;
+    color: #230C33;
 }
 .contact .right form .fields{
     display: flex;
@@ -425,7 +482,7 @@ section .title::after{
     outline: none;
     padding: 0 15px;
     font-size: 17px;
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
 }
 .contact .right form .field input:focus,
@@ -441,7 +498,7 @@ section .title::after{
   align-items: center;
 }
 .right form .button-area button{
-  color: #001D3D;
+  color: #fff;
   display: block;
   width: 160px!important;
   height: 45px;
@@ -451,8 +508,8 @@ section .title::after{
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: #FFC300;
-  border: 2px solid #FFD60A;
+  background: #04AA6D;
+  border: 2px solid #04AA6D;
   transition: all 0.3s ease;
 }
 
@@ -461,16 +518,21 @@ section .title::after{
   background: none;
 }
 
+.right form .button-area text :hover{
+  color: #001D3D;
+  background: none;
+}
+
 
 /* footer section styling */
 footer{
-    background: #111;
+    background: #04AA6D;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
 }
 footer span a{
-    color: #FFC300;
+    color: #111;
     text-decoration: none;
 }
 footer span a:hover{
@@ -505,7 +567,7 @@ footer span a:hover{
         width: 100%;
         left: -100%;
         top: 0;
-        background: #001D3D;
+        background: #04AA6D;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
